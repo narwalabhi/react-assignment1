@@ -1,0 +1,10 @@
+.Input{
+    width: 50%;
+    padding: 16px;
+    margin: 50px auto;
+    box-shadow: 0 2px 3px #ccc;
+}
+.input-box{
+    width: 100%;
+    height: 30px;
+}
