@@ -1,11 +1,16 @@
-import React from 'react'
-import './InputPerson.css'
+import React from "react";
+import "./InputPerson.css";
 const inputPerson = (props) => {
-    return (
-        <div className="Input">
-            <input type="text" className="input-box" placeholder="Name" onChange={props.changed}/>
-        </div>
-    )
-}
+  return (
+    <div className="Input">
+      <input
+        type="text"
+        onChange={props.changed}
+        className="input-box"
+        value={props.name}
+      />
+    </div>
+  );
+};
 
 export default inputPerson;
